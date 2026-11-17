@@ -1,0 +1,2 @@
+ALTER TABLE public.ordenes_produccion ALTER COLUMN desviacion_hh SET EXPRESSION AS (CASE WHEN hh_planificadas > 0 AND hh_ejecutadas > 0 THEN round((hh_ejecutadas - hh_planificadas) / hh_planificadas * 100, 2) END);
+ALTER TABLE public.ordenes_trabajo ALTER COLUMN desviacion_hh SET EXPRESSION AS (CASE WHEN hh_planificadas > 0 AND hh_ejecutadas > 0 THEN round((hh_ejecutadas - hh_planificadas) / hh_planificadas * 100, 2) END);

@@ -1,0 +1,1 @@
+ALTER TABLE public.calidad_registros ADD COLUMN IF NOT EXISTS descripcion text;

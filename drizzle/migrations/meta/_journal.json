@@ -1,0 +1,83 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1792094342325,
+      "tag": "0000_sistema_produccion",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1792157111662,
+      "tag": "0001_restringir_funciones_roles",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1792413198178,
+      "tag": "0002_responsable_gerencia_y_calculos",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1792413283806,
+      "tag": "0003_desviacion_hh_pendiente_si_cero",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1793540212791,
+      "tag": "0004_automatizacion_estados",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1793625186402,
+      "tag": "0005_ejecucion_taller",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1793711442456,
+      "tag": "0006_roles_inspeccion",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1793711511576,
+      "tag": "0007_modulos_calidad_shi",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1793798287555,
+      "tag": "0008_calidad_descripcion_renglon",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1793985763668,
+      "tag": "0009_modulo_lider_proyecto",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1793985778677,
+      "tag": "0010_proteger_empleado_perfil",
+      "breakpoints": true
+    }
+  ]
+}
